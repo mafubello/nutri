@@ -1,0 +1,125 @@
+/* CSS variables */
+:root{
+    --primary:#ddd;
+    --dark:#333;
+    --light:#fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8):
+}
+
+/* body{
+    background: snow;
+} */
+
+/* Navigation  */
+.main-nav ul{
+    font-family: 'Jaldi', sans-serif;
+    display: grid;
+    grid-gap:20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a{
+    background:lightskyblue;
+    display: block;
+    text-decoration:none;
+    padding: 0.8rem;
+    text-align: center;
+    color: var(--dark);
+    text-transform: uppercase;
+    font-size:1.1rem;
+    box-shadow: var(--shadow);
+}
+
+.main-nav a:hover{
+    background: var(--dark);
+    color:var(--light);
+}
+p{
+    font-family: 'Jaldi', sans-serif;
+    line-height: 2.3rem;
+    font-size: 1.1rem;
+}
+h3{
+    font-family:'Cinzel', serif;
+    font-size: 3rem;
+}
+
+
+.my-list{
+    list-style: none;
+    float: left;
+    justify-items: start;
+    margin-top: 0.2rem;
+    font-family: 'Jaldi', sans-serif;
+}
+
+.my-list li{
+    padding-top: 1rem;    
+}
+
+.my-list li:first-child{
+    background: ivory;
+}
+
+.my-list li:last-child{
+    background:snow;
+}
+
+.my-list li:nth-child(odd){
+background:ivory;
+}
+
+.my-list li:nth-child(even){
+    background: snow;
+}
+.boxus{
+    display: grid;
+    grid-gap: 500px;
+    margin:4rem;
+    border: 0.5px solid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr))
+}
+
+.boxu{
+    background: var(--light);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow);
+}
+.wrap{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-columns:repeat(3fr, 1fr); */
+    /* grid-template-rows:repeat(4, 1fr); */
+    grid-gap:3rem;
+    /* grid-auto-rows: 100px; */
+    grid-auto-columns:minmax(100px, auto);
+}
+.wrap{
+    justify-content: center;
+}
+.wrap >div{
+    text-align:center;
+}
+
+.wrap >div{
+    margin-left:40px;
+}
+.wrap >div{
+    background:white;
+    padding: 6rem;
+   /* border: 1px solid snow; */
+}
+/* Footer */
+footer{
+    margin-top: 0.2rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align:center;
+    padding:0.1rem;
+}
+footer a:hover{
+    color: crimson;
+}
