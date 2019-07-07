@@ -88,11 +88,25 @@ img{
 
 section{
     display: grid;
-    grid-gap: 5rem;
+    grid-gap: 3rem;
+    /* padding-top: 15rem;
+    margin-top: 1rem;
+   margin-bottom: 2rem; */
+}
+
+section p, h3{
+   padding: 0px;
+   margin-top: 0.1rem;
+}
+
+section p{
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    font-weight: 0.7rem;
 }
 
 #show{
-    min-height: 450px;
+    min-height: 500px;
     color: #000;
     text-align: left;
 }
@@ -102,10 +116,10 @@ position: absolute;
 background: #333;
 background-repeat: no-repeat;
 background-size: cover;
-width: 100%;
+width: 90%;
 height:500px;
-z-index: -1;
-opacity: 0.9;
+z-index: -3;
+/* opacity: 0.7; */
 }
 
 #show h1{
@@ -114,9 +128,9 @@ padding-bottom:0;
 font-size: 5rem;
 }
 
-#show .content-wrap{
+/* #show .content-wrap{
     padding:0 1.5em;
-}
+} */
 
 /* Showcase */
 .showcase{
@@ -171,7 +185,9 @@ font-size: 5rem;
 .boxes{
     display: grid;
     grid-gap: 20px;
+    padding-top:2rem;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+    
 }
 
 .box{
@@ -179,6 +195,13 @@ font-size: 5rem;
     text-align: center;
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
+}
+.box p{
+    font-size: 1.2rem;
+}
+
+a:hover{
+    color: crimson;
 }
 .prepare{
     display: grid;
@@ -251,8 +274,9 @@ font-size: 5rem;
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
+  /* color: #f2f2f2; */
+  color:black;
+  font-size: 40px;;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;

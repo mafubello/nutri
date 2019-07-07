@@ -85,7 +85,7 @@ img{
 
 /* Showcase */
 .showcase{
-    grid-area: showcase;
+    grid-area:showcase;
     min-height:400px;
     background:url(img/chart.jpg);
     opacity: 0.9;
@@ -147,6 +147,10 @@ img{
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
 }
+.format{
+    padding:0.3rem;
+    margin: none;
+}
 .dropdown{
     float:left;
     overflow:hidden;
@@ -156,8 +160,9 @@ img{
     border:none;
     outline:none;
     color:white;
-    padding: 14px 16px;
-    background: var(--primary);
+    /* padding: 14px 16px; */
+    padding: 4px 5px;
+    background: var(--dark);
     font-family:'Jaldi', sans-serif;
     margin:0;
 }
@@ -171,10 +176,13 @@ img{
     box-shadow: var(--shadow);
 }
 
-.dropdown-content ul, table {
+.dropdown-content h3 table {
     float: none;
     color: black;
-    padding: 12px 16px;
+    /* padding: 12px 16px; */
+    padding: 2px 6px;
+    margin:2px;
+    font-family: 'Jaldi', sans-serif;
     text-decoration: none;
     display: block;
     text-align: left;
