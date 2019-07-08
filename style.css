@@ -438,4 +438,22 @@ footer{
      }
  }
  
+ @media(max-width: 700px){
+    .boxu{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .wrap{
+        grid-template-columns: 1fr;
+    }
+   
+    }
+    .wrap {
+        display: block;
+        text-align: center;
+        margin: auto;
+
+    }
+
  
