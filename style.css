@@ -78,9 +78,9 @@ img{
 /* Top container */
 .top-container{
     display: grid;
-    /* grid-template-areas:
+    grid-template-areas:
     'showcase showcase top-box-a'
-    'showcase showcase top-box-b'; */
+    'showcase showcase top-box-b';
 }
 
 
@@ -105,7 +105,7 @@ section p{
     font-weight: 0.7rem;
 }
 
-#show{
+/* #show{
     min-height: 500px;
     color: #000;
     text-align: left;
@@ -120,13 +120,13 @@ width: 90%;
 height:500px;
 z-index: -3;
 /* opacity: 0.7; */
-}
+/* }
 
 #show h1{
 padding-top: 100px;
 padding-bottom:0;
-font-size: 5rem;
-}
+font-size: 5rem; 
+} */
 
 /* #show .content-wrap{
     padding:0 1.5em;
@@ -136,7 +136,8 @@ font-size: 5rem;
 .showcase{
     grid-area:showcase;
     min-height:400px;
-    background:url(img/chickenX.jpg);
+    min-width: 75rem;
+    background:url(img/bowl.jpg);
     opacity: 0.9;
     background-size:cover;
     background-position:center;
